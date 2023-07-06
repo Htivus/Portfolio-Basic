@@ -11,3 +11,5 @@ navLinks.forEach(link => {
     })
 })
 
+console.log("HI");
+
