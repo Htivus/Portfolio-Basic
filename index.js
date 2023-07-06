@@ -11,5 +11,5 @@ navLinks.forEach(link => {
     })
 })
 
-console.log("HI");
+console.log("HI from master");
 
