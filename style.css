@@ -314,10 +314,18 @@ header {
   
   .section__title {
     margin-bottom: 2em;
+    
+  }
+  .section__title-education{
+    margin-bottom: 2em;
+    color: #f8f5f5;
+    text-decoration-thickness: var(--clr-light);
+    
   }
   
   .education__item {
     margin-bottom: 2em;
+    color: #f8f5f5;
   }
   
   .education__title {
