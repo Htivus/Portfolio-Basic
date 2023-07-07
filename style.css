@@ -68,6 +68,16 @@ strong { font-weight: var(--fw-bold) }
     outline-offset: 3px;
 }
 
+
+
+.education{
+    border: 4px  rgb(37, 35, 35);
+   
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #303030;
+    
+}
 /* Buttons */
 
 .btn {
@@ -117,6 +127,7 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle {
     margin: 0;
     font-size: var(--fs-h3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .section__subtitle--intro,
@@ -125,6 +136,7 @@ h3 { font-size: var(--fs-h3) }
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+
 }
 
 .section__subtitle--work {
@@ -257,6 +269,7 @@ header {
 
 .section__subtitle--intro {
     display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 600px) {
@@ -289,6 +302,42 @@ header {
     }
 }
 
+/* education */
+/* Education section */
+.education {
+    /* background-color: #16e0bd; */
+    padding: 3em 0;
+    text-align: center;
+    
+    
+  }
+  
+  .section__title {
+    margin-bottom: 2em;
+  }
+  
+  .education__item {
+    margin-bottom: 2em;
+  }
+  
+  .education__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+    color: #f8f5f5;
+  }
+  
+  .education__info {
+    font-size: 1.2rem;
+    margin-bottom: 0.2em;
+    font-weight:800;
+    color: #f8f5f5;
+  }
+  
+  .education__date {
+    color: #f8f5f5;
+    font-size: 1rem;
+  }  
+
 
 
 /*  My services section  */
@@ -300,6 +349,7 @@ header {
     /* background-blend-mode: multiply; */
     color: var(--clr-light);
     text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .section__title--services {
