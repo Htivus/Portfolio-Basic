@@ -313,10 +313,13 @@ header {
     margin-bottom: 2em;
     color: #f8f5f5;
     text-decoration-thickness: var(--clr-light);
+    text-align: center;
+    margin-left:30%;
+    margin-right: 30%;
   }
   
   .education__item {
-    margin-bottom: 2em;
+    margin-bottom: 0.1em;
     color: #f8f5f5;
   }
   
@@ -343,8 +346,10 @@ header {
   }
   
   .education__item {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 350px;
+    margin-block-start: 5%;
+    display: flexbox;
+    margin-top: auto;
   }
   
   @media (min-width: 800px) {
@@ -352,9 +357,10 @@ header {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      max-width: 1000px;
+      max-width: 100%;
       margin-left: auto;
       margin-right: auto;
+      margin: auto;
     }
   
     .education__item {
