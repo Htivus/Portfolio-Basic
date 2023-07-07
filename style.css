@@ -305,22 +305,14 @@ header {
 /* education */
 /* Education section */
 .education {
-    /* background-color: #16e0bd; */
     padding: 3em 0;
     text-align: center;
-    
-    
   }
   
-  .section__title {
-    margin-bottom: 2em;
-    
-  }
-  .section__title-education{
+  .section__title-education {
     margin-bottom: 2em;
     color: #f8f5f5;
     text-decoration-thickness: var(--clr-light);
-    
   }
   
   .education__item {
@@ -337,15 +329,44 @@ header {
   .education__info {
     font-size: 1.2rem;
     margin-bottom: 0.2em;
-    font-weight:800;
+    font-weight: 800;
     color: #f8f5f5;
   }
   
   .education__date {
     color: #f8f5f5;
     font-size: 1rem;
-  }  
-
+  }
+  
+  .education {
+    margin-bottom: 4em;
+  }
+  
+  .education__item {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 800px) {
+    .education {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .education__item {
+      width: 45%;
+      margin-left: 2em;
+    }
+    
+    .section__title-education {
+      order: -1;
+    }
+  }
+  
 
 
 /*  My services section  */
